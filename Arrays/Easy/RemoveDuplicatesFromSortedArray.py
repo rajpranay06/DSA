@@ -26,3 +26,9 @@ class Solution:
                 i += 1
                 a[i] = a[j]
         return i+1
+
+'''
+Time Complexity: O(N)
+
+Space Complexity: O(1)
+'''
