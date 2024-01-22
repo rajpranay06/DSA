@@ -1,2 +1,2 @@
 # DSA
-Complete DSA Course with my notes and codes.
+Complete DSA Course with notes and codes in Python.
