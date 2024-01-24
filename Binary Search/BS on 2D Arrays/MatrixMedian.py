@@ -45,7 +45,7 @@ def median(a: [[int]], m: int, n: int) -> int:
 
 '''
 
-Time Complexity: O(row*log col) since the upper bound function takes log c time.
+Time Complexity: O(log2(2^32) * N * logM) -> O(32 * N * logM) 
 
 Space Complexity: O(1) since no extra space is required.
 
