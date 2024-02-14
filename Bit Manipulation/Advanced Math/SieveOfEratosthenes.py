@@ -8,6 +8,12 @@ If 10 is given, we will start from 2 and mark 4, 6, 8, 10 as not primes. Next 3 
 O/p would be 2, 3, 5, 7.
 
 We don't need to traverse whole 2 to n, we can traverse from 2 to sqrt of n. 
+
+Time Complexity - O(Nlog(log(N))), where ‘N’ is the given number.
+We are using the Sieve of Eratosthenes, so our complexity is O(Nlog(log(N))).
+
+Space Complexity - O(N), where ‘N’ is the given number.
+
 '''
 
 class Solution:
